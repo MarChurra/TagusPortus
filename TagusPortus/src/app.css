@@ -615,6 +615,7 @@ strong {
     text-shadow: 0 0 2px black;
 }
 
+/* 
 .contacts-container .loader {
     position: fixed;
     z-index: 999;
@@ -624,7 +625,7 @@ strong {
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
-}
+} */
 
 .contacts-container .loader-container {
     margin: 0;

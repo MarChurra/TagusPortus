@@ -101,8 +101,6 @@ const Contacts: React.FC = () => {
     }
   }
 
-  console.log(formData)
-
   return (
     <>
       <section className="contacts-container">
@@ -132,6 +130,7 @@ const Contacts: React.FC = () => {
           <input
             type="number"
             name="mobileNumber"
+            min={9}
             value={mobileNumber}
             placeholder="Phone Number"
             onChange={handleChange}
@@ -153,8 +152,9 @@ const Contacts: React.FC = () => {
             required
           ></textarea>
 
-          <button type="submit">
-            {loadingRequest ? <LoadingComponent /> : submitMessage || 'Enviar Pedido'}
+          <button type="submit" className="submit-button" disabled={loadingRequest}>
+            {loadingRequest ? <LoadingComponent /> :
+              submitMessage}
           </button>
           {/* {loadingRequest ? <LoadingComponent /> : submitMessage ? <div className="contacts-notification"> < p > {submitMessage}</p> </div> : null} */}
 
