@@ -59,7 +59,7 @@ const Contacts: React.FC = () => {
     try {
       setLoadingRequest(true)
 
-      const response = await fetch('/.netlify/functions/handle-email', {
+      const response = await fetch('/.netlify/functions/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -111,45 +111,89 @@ const Contacts: React.FC = () => {
           onSubmit={handleSubmit}
           className="contact-form">
 
-          <input
-            type="text"
-            name="fName"
-            value={fName}
-            placeholder="First Name"
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="lName"
-            value={lName}
-            placeholder="Last Name"
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="number"
-            name="mobileNumber"
-            value={mobileNumber}
-            placeholder="Phone Number"
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="email"
-            name="userEmail"
-            value={userEmail}
-            placeholder="E-mail"
-            onChange={handleChange}
-            required
-          />
-          <textarea
-            name="userRequest"
-            value={userRequest}
-            placeholder="How can we help you?"
-            onChange={handleChange}
-            required
-          ></textarea>
+          <div className='form-section'>
+
+            <label htmlFor="fName">
+              First Name
+            </label>
+            <input
+              id='fName'
+              type="text"
+              name="fName"
+              value={fName}
+              placeholder="Jane"
+              onChange={handleChange}
+              required
+            />
+
+          </div>
+
+          <div className='form-section '>
+
+            <label htmlFor="lName">
+              Last Name
+            </label>
+            <input
+              id='lName'
+              type="text"
+              name="lName"
+              value={lName}
+              placeholder="Doe"
+              onChange={handleChange}
+              required
+            />
+
+          </div>
+
+          <div className='form-section '>
+
+            <label htmlFor="mobileNumber">
+              Mobile Number
+            </label>
+            <input
+              id='mobileNumber'
+              type="number"
+              name="mobileNumber"
+              value={mobileNumber}
+              placeholder="+351 9xx xxx xxx"
+              onChange={handleChange}
+              required
+            />
+
+          </div>
+
+          <div className='form-section '>
+
+            <label htmlFor="userEmail">
+              E-Mail Address
+            </label>
+            <input
+              id='userEmail'
+              type="email"
+              name="userEmail"
+              value={userEmail}
+              placeholder="janedoe@gmail.com"
+              onChange={handleChange}
+              required
+            />
+
+          </div>
+
+          <div className='form-section '>
+
+            <label htmlFor="userRequest">
+              Write your Request
+            </label>
+            <textarea
+              id='userRequest'
+              name="userRequest"
+              value={userRequest}
+              placeholder="How can we help you?"
+              onChange={handleChange}
+              required
+            ></textarea>
+
+          </div>
 
           <button type="submit" className="submit-button" disabled={loadingRequest}>
             Submit your request
