@@ -550,7 +550,7 @@ strong {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    max-width: 65%;
+    max-width: 75%;
 }
 
 .contact-form input {
@@ -596,6 +596,7 @@ strong {
     font-weight: 600;
     transition: all 0.3s ease-in;
     font-size: 1rem;
+    position: relative;
 }
 
 .contact-form button:hover {
@@ -603,9 +604,9 @@ strong {
 }
 
 .contacts-notification {
-    position: fixed;
+    position: absolute;
     max-width: 85vw;
-    bottom: 10%;
+    bottom: 5%;
     z-index: 999;
     text-align: center;
     border-radius: 10px;
@@ -615,17 +616,17 @@ strong {
     text-shadow: 0 0 2px black;
 }
 
-/* 
+
 .contacts-container .loader {
-    position: fixed;
+    position: absolute;
     z-index: 999;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
-} */
+}
 
 .contacts-container .loader-container {
     margin: 0;

@@ -52,7 +52,7 @@ const Contacts: React.FC = () => {
     e.preventDefault()
 
     if (!emailRegex.test(userEmail)) {
-      notification('Por favor introduza um endereço de e-mail válido', 'fail')
+      notification('Please insert a valid e-mail address', 'fail')
       return
     }
 
@@ -92,12 +92,12 @@ const Contacts: React.FC = () => {
       }
       //Sends the user a message of failure and maintain the content of the form, for correction
       else {
-        notification('Erro ao enviar o e-mail', 'fail')
+        notification('Error in sending the E-Mail, please try again.', 'fail')
         setLoadingRequest(false)
       }
     }
     catch (error) {
-      notification('Erro ao enviar o e-mail.', 'fail');
+      notification('Error in sending the E-Mail, please try again.', 'fail');
     }
   }
 
@@ -130,7 +130,6 @@ const Contacts: React.FC = () => {
           <input
             type="number"
             name="mobileNumber"
-            min={9}
             value={mobileNumber}
             placeholder="Phone Number"
             onChange={handleChange}
@@ -153,10 +152,10 @@ const Contacts: React.FC = () => {
           ></textarea>
 
           <button type="submit" className="submit-button" disabled={loadingRequest}>
-            {loadingRequest ? <LoadingComponent /> :
-              submitMessage}
+            Submit your request
           </button>
-          {/* {loadingRequest ? <LoadingComponent /> : submitMessage ? <div className="contacts-notification"> < p > {submitMessage}</p> </div> : null} */}
+
+          {loadingRequest ? <LoadingComponent /> : submitMessage ? <div className="contacts-notification"> < p > {submitMessage}</p> </div> : null}
 
         </form >
         <section className="location-info">
@@ -173,7 +172,7 @@ const Contacts: React.FC = () => {
             </Map>
           </APIProvider>
           <address>
-            Av. Dom Nuno Álvares Pereira
+            Av. Dom Nuno Alvares Pereira
             <br />
             2800-181 Almada
           </address>
