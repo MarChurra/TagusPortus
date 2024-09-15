@@ -551,6 +551,7 @@ strong {
     align-items: center;
     gap: 1.5em;
     max-width: 75%;
+    position: relative;
 }
 
 .form-section {
@@ -617,7 +618,6 @@ strong {
     font-weight: 600;
     transition: all 0.3s ease-in;
     font-size: 1rem;
-    position: relative;
 }
 
 .contact-form button:hover {
