@@ -2,110 +2,110 @@ const PrivacyPolicy: React.FC = () => {
   return (
     <div className="policies-containers">
       <h2>
-        <span>Política Privacidade</span>
+        <span>Privacy Policy</span>
       </h2>
       <p>
         <span>
-          A sua privacidade é importante para nós. É política do Tagus Portus respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site{' '}
-          <a href="https://tagusportus.netlify.app/">Tagus Portus</a>, e outros sites que possuímos e operamos.
+          Your privacy is important to us. It is Tagus Portus' policy to respect your privacy regarding any information we may collect on the site{' '}
+          <a href="https://tagusportus.netlify.app/">Tagus Portus</a>, and other sites we own and operate.
         </span>
       </p>
       <p>
         <span>
-          Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
+          We only request personal information when we really need it to provide you with a service. We do so through fair and legal means, with your knowledge and consent. We also inform you why we are collecting it and how it will be used.
         </span>
       </p>
       <p>
         <span>
-          Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+          We only retain the collected information for as long as necessary to provide the requested service. When we store data, we protect it using commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.
         </span>
       </p>
       <p>
         <span>
-          Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+          We do not share personally identifiable information publicly or with third parties, except when required by law.
         </span>
       </p>
       <p>
         <span>
-          O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas{' '}
+          Our website may have links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility for their respective{' '}
         </span>
-        <a href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank" style={{ backgroundColor: 'transparent', color: 'rgb(68, 68, 68)' }}>
-          políticas de privacidade
+        <a href="https://politicaprivacidade.com/">
+          privacy policies
         </a>
         <span>.</span>
       </p>
       <p>
         <span>
-          Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
+          You are free to decline our request for personal information, understanding that we may not be able to provide some of the desired services.
         </span>
       </p>
       <p>
         <span>
-          O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.
+          Continued use of our website will be considered acceptance of our practices regarding privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
         </span>
       </p>
 
       <ul>
         <li>
           <span>
-            O serviço Google AdSense que usamos para veicular publicidade usa um cookie DoubleClick para veicular anúncios mais relevantes em toda a Web e limitar o número de vezes que um determinado anúncio é exibido para você.
+            The Google AdSense service we use to serve ads uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times a particular ad is shown to you.
           </span>
         </li>
         <li>
           <span>
-            Para mais informações sobre o Google AdSense, consulte as FAQs oficiais sobre privacidade do Google AdSense.
+            For more information about Google AdSense, please refer to the official Google AdSense privacy FAQs.
           </span>
         </li>
         <li>
           <span>
-            Utilizamos anúncios para compensar os custos de funcionamento deste site e fornecer financiamento para futuros desenvolvimentos. Os cookies de publicidade comportamental usados ​​por este site foram projetados para garantir que você forneça os anúncios mais relevantes sempre que possível, rastreando anonimamente seus interesses e apresentando coisas semelhantes que possam ser do seu interesse.
+            We use ads to offset the costs of running this site and provide funding for future developments. The behavioral advertising cookies used by this site are designed to ensure that you are served the most relevant ads whenever possible, anonymously tracking your interests and showing you similar things that may be of interest.
           </span>
         </li>
         <li>
           <span>
-            Vários parceiros anunciam em nosso nome e os cookies de rastreamento de afiliados simplesmente nos permitem ver se nossos clientes acessaram o site através de um dos sites de nossos parceiros, para que possamos creditá-los adequadamente e, quando aplicável, permitir que nossos parceiros afiliados ofereçam qualquer promoção que pode fornecê-lo para fazer uma compra.
+            Several partners advertise on our behalf, and affiliate tracking cookies simply allow us to see if our customers have accessed the site through one of our partners' sites, so we can credit them appropriately and, where applicable, allow our affiliate partners to offer any promotion that may provide you with the opportunity to make a purchase.
           </span>
         </li>
       </ul>
 
       <h3>
-        <span>Compromisso do Usuário</span>
+        <span>User Commitment</span>
       </h3>
       <p>
         <span>
-          O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Tagus Portus oferece no site e com caráter enunciativo, mas não limitativo:
+          The user commits to making proper use of the content and information that Tagus Portus offers on the website and, by way of example, but not limited to:
         </span>
       </p>
       <ul>
         <li>
-          <span>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé e à ordem pública</span>
+          <span>A) Not engage in activities that are illegal or contrary to good faith and public order</span>
         </li>
         <li>
           <span>
-            B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica,{' '}
-            <a href="https://kiwibet.br.com" style={{ color: 'inherit', textDecoration: 'none', fontSize: 'inherit' }}>
+            B) Not spread propaganda or content of a racist, xenophobic nature,
+            <a href="https://kiwibet.br.com">
               kiwibet
-            </a>{' '}
-            ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos
+            </a>
+             or gambling, any kind of illegal pornography, advocacy of terrorism, or against human rights
           </span>
         </li>
         <li>
           <span>
-            C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Tagus Portus, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
+            C) Not cause damage to the physical (hardware) and logical (software) systems of Tagus Portus, its suppliers, or third parties, to introduce or spread computer viruses or any other hardware or software systems capable of causing the aforementioned damage.
           </span>
         </li>
       </ul>
 
       <h3>
-        <span>Mais informações</span>
+        <span>More Information</span>
       </h3>
       <p>
         <span>
-          Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.
+          We hope this is clear, and as mentioned earlier, if there is something you are unsure whether you need or not, it is generally safer to leave cookies enabled, in case they interact with one of the features you use on our site.
         </span>
       </p>
       <p>
-        <span>Esta política é efetiva a partir de 6 Setembro de 2024 às 13h08</span>
+        <span>This policy is effective from September 6, 2024, at 1:08 PM</span>
       </p>
     </div>
   )

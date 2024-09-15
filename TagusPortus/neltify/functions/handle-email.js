@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
     const mailOptions = {
         from: 'tagusportus@outlook.pt',
         to: 'tagusportus@outlook.pt',
-        subject: `${fName} ${lName} - Pedido de Esclarecimento / Orçamento`,
+        subject: `${fName} ${lName} - Request Information / Budget`,
         text: userRequest
     }
 
@@ -41,13 +41,13 @@ exports.handler = async (event, context) => {
         await transporter.sendMail(mailOptions)
         return {
             statusCode: 200,
-            body: JSON.stringify({ message: 'E-mail enviado com sucesso!' })
+            body: JSON.stringify({ message: 'E-mail sent sucessfully!' })
         }
     } catch (err) {
         console.error('Error sending email', err)
         return {
             statusCode: 500,
-            body: JSON.stringify({ message: 'Não foi possível enviar o e-mail', error: err.message })
+            body: JSON.stringify({ message: 'Failed to send the e-mail, please try again.', error: err.message })
         }
     }
 }

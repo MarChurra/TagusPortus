@@ -3,69 +3,70 @@ const LegalDisclaimer: React.FC = () => {
   return (
     <div className="policies-containers">
       <>
-        <h2>Aviso Legal</h2>
-        <p>Este Aviso Legal regula o acesso, a navegação e a utilização deste website (doravante, o “Website”).</p>
+        <h2>Legal Notice</h2>
+        <p>This Legal Notice governs the access, navigation, and use of this website (hereinafter, the “Website”).</p>
 
-        <h3>1.- Direito à Informação</h3>
+        <h3>1.- Right to Information</h3>
         <p>
-          Em conformidade com o direito de informação contido nos artigos 37.º- “Liberdade de expressão e informação”, 38.º – “Liberdade de imprensa e meios de comunicação social” e 39.º – “Regulação da comunicação social” da Constituição da República Portuguesa, informamos que o Website é propriedade da Palavratrevida – Sociedade de Media e Digital Unipessoal Lda (doravante, o “proprietário”) com o Código de Identificação Fiscal 515668648, com sede social no Edifício Tower Plaza – Rotunda Eng.º Edgar Cardoso, N.º 23, 7.º A e B.
+          In accordance with the right to information contained in Articles 37 - "Freedom of Expression and Information", 38 - "Freedom of the Press and Media", and 39 - "Regulation of the Media" of the Constitution of the Portuguese Republic, we inform you that the Website is owned by Palavratrevida – Sociedade de Media e Digital Unipessoal Lda (hereinafter, the "Owner") with the Tax Identification Code 515668648, with its registered office at Edifício Tower Plaza – Rotunda Eng.º Edgar Cardoso, No. 23, 7th A and B.
         </p>
-        <p>Pode contactar a empresa proprietária do Website no seguinte endereço eletrónico: info@ecommercenews.pt</p>
+        <p>You can contact the company owning the Website at the following email address: info@ecommercenews.pt</p>
 
-        <h3>2.- Utilizadores</h3>
+        <h3>2.- Users</h3>
         <p>
-          O acesso e/ou utilização do Website confere-lhe o estatuto de Utilizador, e aceita, a partir desse acesso e/ou utilização, este Aviso Legal, bem como todas e cada uma das condições e restrições que são publicadas no Website no momento em que acede ao mesmo.
+          Access and/or use of the Website grants you the status of User, and from that access and/or use, you accept this Legal Notice, as well as all and each of the conditions and restrictions published on the Website at the time of your access.
         </p>
         <p>
-          O acesso ao Website e/ou a utilização de qualquer dos serviços nele incluídos implicará a aceitação de todas as condições de utilização. O PROPRIETÁRIO reserva-se o direito de modificar unilateralmente o Website e o Conteúdo nele oferecido, incluindo a modificação das condições de utilização. Neste caso, será dado aviso prévio ao Utilizador. Recomenda-se ao Utilizador que leia este Aviso Legal tantas vezes quantas aceder ao Website.
-        </p>
-
-        <h3>3.- Utilização do Website</h3>
-        <p>
-          O Website pode fornecer acesso a uma multiplicidade de textos, gráficos, desenhos, códigos, software, fotografias, música, vídeos, sons, bases de dados, imagens e informações (doravante, “Conteúdo”) pertencentes ao PROPRIETÁRIO ou a terceiros a que o Utilizador possa ter acesso.
-        </p>
-        <p>
-          O Utilizador assume a responsabilidade pela utilização do Website. Esta responsabilidade estende-se a qualquer registo que possa ser necessário para aceder ao Conteúdo fornecido pelo Website.
-        </p>
-        <p>
-          O Utilizador compromete-se a fazer um uso adequado dos Conteúdos oferecidos através do Website e, a título de exemplo, a não os utilizar para (i) realizar atividades ilícitas ou contrárias à boa fé e à ordem pública; (ii) causar danos nos sistemas físicos e lógicos do proprietário do Website, dos seus fornecedores ou de terceiros, (iii) introduzir ou difundir vírus informáticos ou quaisquer outros sistemas físicos ou lógicos que possam ser susceptíveis de causar os referidos danos.
+          Access to the Website and/or the use of any of the services included therein will imply acceptance of all the terms of use. The OWNER reserves the right to unilaterally modify the Website and the Content offered therein, including the modification of the terms of use. In such a case, prior notice will be given to the User. It is recommended that the User read this Legal Notice each time they access the Website.
         </p>
 
-        <h3>4.- Propriedade Intelectual</h3>
+        <h3>3.- Use of the Website</h3>
         <p>
-          Todos os direitos de propriedade intelectual do Conteúdo, design e código fonte deste Website são propriedade exclusiva do PROPRIETÁRIO, ou de terceiros que autorizaram o PROPRIETÁRIO a utilizar o mesmo no seu Website.
+          The Website may provide access to a multitude of texts, graphics, designs, codes, software, photographs, music, videos, sounds, databases, images, and information (hereinafter, "Content") owned by the OWNER or third parties that the User may access.
         </p>
         <p>
-          Assim, em virtude das disposições da Constituição Portuguesa, VII REVISÃO CONSTITUCIONAL [2005], no Artigo 42.º- “Liberdade de criação cultural”, bem como o Decreto-Lei n.º 143/2014 de 26 de setembro é proibida a reprodução, transmissão, adaptação, tradução, distribuição, comunicação pública ou qualquer outra exploração e/ou modificação, de todo ou parte do conteúdo do Website, sem a prévia autorização expressa do PROPRIETÁRIO.
+          The User assumes responsibility for the use of the Website. This responsibility extends to any registration that may be necessary to access the Content provided by the Website.
         </p>
         <p>
-          Qualquer utilização de tal conteúdo não autorizada anteriormente pelo PROPRIETÁRIO será considerada uma violação grave dos direitos de propriedade intelectual ou industrial e dará origem às responsabilidades legalmente estabelecidas.
-        </p>
-
-        <h3>5.- Responsabilidade e Garantias</h3>
-
-        <h4> a) Exclusão de garantias e de responsabilidade pelo funcionamento do Website</h4>
-        <p>
-          O PROPRIETÁRIO declara ter adotado as medidas necessárias que permitem o correto funcionamento do Website. No entanto, o PROPRIETÁRIO não pode ser responsabilizado pela continuidade e disponibilidade do Conteúdo; a ausência de erros; a ausência de vírus ou componentes nocivos.
+          The User agrees to make appropriate use of the Content offered through the Website and, by way of example, not to use it for (i) unlawful activities or activities contrary to good faith and public order; (ii) causing damage to the physical and logical systems of the Website owner, its suppliers, or third parties, (iii) introducing or spreading computer viruses or any other physical or logical systems that may cause the aforementioned damage.
         </p>
 
-        <h4> b) Exclusão de garantias e de responsabilidade pelo Conteúdo</h4>
+        <h3>4.- Intellectual Property</h3>
         <p>
-          O PROPRIETÁRIO não pode garantir a adequação do Conteúdo incluído no Website para os fins particulares da pessoa que a ele acede, sendo de exclusiva responsabilidade do Utilizador.
+          All intellectual property rights to the Content, design, and source code of this Website are the exclusive property of the OWNER, or of third parties who have authorized the OWNER to use them on its Website.
+        </p>
+        <p>
+          Thus, by virtue of the provisions of the Portuguese Constitution, VII CONSTITUTIONAL REVISION [2005], Article 42 - "Freedom of Cultural Creation", as well as Decree-Law No. 143/2014 of September 26, the reproduction, transmission, adaptation, translation, distribution, public communication, or any other exploitation and/or modification, of all or part of the content of the Website, without the prior express authorization of the OWNER, is prohibited.
+        </p>
+        <p>
+          Any use of such content not previously authorized by the OWNER will be considered a serious violation of intellectual or industrial property rights and will give rise to the legally established responsibilities.
         </p>
 
-        <h4> c) Exclusão de garantias e de responsabilidade por ligações a outros sítios web</h4>
+        <h3>5.- Liability and Warranties</h3>
+
+        <h4>a) Exclusion of warranties and liability for the operation of the Website</h4>
         <p>
-          O Website pode conter hiperligações para websites de terceiros. O PROPRIETÁRIO não assume qualquer responsabilidade pelo conteúdo ou informações que possam aparecer em tais sites, sendo de exclusivo risco do Utilizador.
+          The OWNER declares that it has adopted the necessary measures to ensure the proper functioning of the Website. However, the OWNER cannot be held responsible for the continuity and availability of the Content; the absence of errors; the absence of viruses or harmful components.
         </p>
 
-        <h3>6.- Duração e Modificação</h3>
+        <h4>b) Exclusion of warranties and liability for the Content</h4>
         <p>
-          As condições deste Aviso Legal permanecerão em vigor até serem modificadas, podendo o PROPRIETÁRIO efetuar estas alterações, que serão comunicadas ao Utilizador.
+          The OWNER cannot guarantee the suitability of the Content included on the Website for the specific purposes of the person accessing it, being the sole responsibility of the User.
+        </p>
+
+        <h4>c) Exclusion of warranties and liability for links to other websites</h4>
+        <p>
+          The Website may contain hyperlinks to third-party websites. The OWNER assumes no responsibility for the content or information that may appear on such sites, being at the sole risk of the User.
+        </p>
+
+        <h3>6.- Duration and Modification</h3>
+        <p>
+          The conditions of this Legal Notice will remain in effect until they are modified, with the OWNER able to make these changes, which will be communicated to the User.
         </p>
         <p>
-          O acesso e/ou utilização do Website deve ser entendido como a aceitação pelo Utilizador das condições deste Aviso Legal e, se for caso disso, das alterações efetuadas às mesmas.
+          Access and/or use of the Website should be understood as acceptance by the User of the conditions of this Legal Notice and, if applicable, the changes made to them.
         </p>
+
       </>
     </div>
   )

@@ -59,7 +59,7 @@ const Contacts: React.FC = () => {
     try {
       setLoadingRequest(true)
 
-      const response = await fetch('/.netlify/functions/send-email', {
+      const response = await fetch('/.netlify/functions/handle-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

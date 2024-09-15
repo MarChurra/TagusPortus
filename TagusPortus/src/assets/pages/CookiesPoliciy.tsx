@@ -2,19 +2,12 @@
 const CookiesPolicy: React.FC = () => {
   return (
     <div className="policies-containers">
-      <p>
-        Para garantir que o nosso site apresenta uma boa experiência de navegação aos seus utilizadores e que disponibiliza um serviço personalizado, o nosso servidor utiliza cookies
-        (pequenos ficheiros informativos e não bolachas, portanto)
-        para recolher e guardar informação.
-        <br />
-        <br />
-        Quer isto dizer que o Gerador poderá utilizar cookies (e como nós gostamos daquelas de chocolate) com a finalidade de recolher informação
-        durante a tua visita ao site, tais como as páginas que visitas.
-        <br />
-        <br />
-        Estes dados são usados para evitar que tenhas de introduzir repetidamente a tua informação pessoal,
-        facilitar a navegação aqui dentro e a personalização do serviço. Não tens, por exemplo, de inserir os dados que já nos deste vezes sem conta.
-      </p>
+      <p> To ensure that our website provides a good browsing experience for its users and offers a personalized service,
+        our server uses cookies (small informational files, not cookies in the edible sense) to collect and store information. <br /> <br />
+        This means that Gerador may use cookies (and we do love the chocolate chip kind) to collect information during your visit to the site,
+        such as the pages you visit. <br /> <br /> This data is used to prevent you from repeatedly having to enter your personal information,
+        make navigation easier, and personalize the service.
+        For example, you won’t need to input the data you've already provided over and over again. </p>
     </div>
   )
 }

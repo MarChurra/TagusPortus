@@ -6,7 +6,7 @@ const NotFound: React.FC = () => {
             <img src="../../icons/404.png" alt="Page not found icon" />
             <p>Sorry... Unable to find the page you are looking for, please try again.</p>
             <CallToActionBtn
-                description="Voltar ao Início"
+                description="Return to Home"
                 link='/'
             />
         </section>
