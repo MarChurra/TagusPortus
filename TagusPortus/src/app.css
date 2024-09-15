@@ -627,11 +627,8 @@ strong {
 .contacts-notification {
     position: absolute;
     max-width: 85vw;
-    bottom: 10%;
+    bottom: 30%;
     z-index: 999;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 10px;
     padding: 1em 1.5em;
@@ -644,7 +641,7 @@ strong {
 .contacts-container .loader {
     position: absolute;
     z-index: 999;
-    bottom: 10%;
+    bottom: 30%;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
